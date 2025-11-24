@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+CU:wght@100..400&display=swap');
 
 @font-face {
     font-family: 'Shag-Lounge';
-    src: url('../assets/fonts/Shag-Lounge.woff2') format('woff2'),
-        url('../assets/fonts/Shag-Lounge.woff') format('woff');
+    src: url('../assets/fonts/Shag-Lounge.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -11,29 +10,29 @@
 
 :root[data-theme="light"] {
   --text: rgb(8, 17, 22);
-  --background: rgb(236, 248, 249);
+  --background: rgb(255, 165, 0);
   --primary: rgb(33, 90, 120);
   --secondary: rgb(83, 174, 50);
   --accent: rgb(170, 172, 27);
 }
 :root[data-theme="dark"] {
   --text: rgb(233, 242, 247);
-  --background: rgb(6, 18, 19);
-  --primary: rgb(135, 192, 222);
-  --secondary: rgb(114, 205, 81);
+  --background: rgb(255, 165, 0);
+  --primary: rgb(255, 165, 0);
+  --secondary: rgb(255, 165, 0);
   --accent: rgb(226, 228, 83);
 }
 
 :root {
-  --headerColor: #008cff;
-  --daytime: radial-gradient(circle, rgba(199, 246, 254, 1) 0%, rgba(165, 241, 254, 1) 100%);
-  --nighttime: radial-gradient(circle,rgba(0, 12, 31, 1) 0%, rgb(0, 28, 64) 100%);
-  --stormtime: radial-gradient(circle, #3a4856 0%, #1e232a 100%);
-  --snowytime: radial-gradient(circle, #eaf6fb 0%, #b5d0e6 100%);
-  --daycolor: rgba(199, 246, 254, 1);
-  --nightcolor: #000c1f;
-  --stormcolor: #232b33;
-  --snowycolor: #eaf6fb;
+  --headerColor: #ffa500;
+  --daytime: radial-gradient(circle, rgba(255, 165, 0, 1) 0%, rgba(255, 165, 5, 1) 100%);
+  --nighttime: radial-gradient(circle,rgba(255, 165, 0, 1) 0%, rgb(255, 165, 0) 100%);
+  --stormtime: radial-gradient(circle, #ffa500 0%, #ffa500 100%);
+  --snowytime: radial-gradient(circle, #ffa500 0%, #ffa500 100%);
+  --daycolor: rgba(255, 165, 0, 1);
+  --nightcolor: #ffa500;
+  --stormcolor: #ffa500;
+  --snowycolor: #ffa500;
 }
 
 html {
